@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="7" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-10-22T13:51:57 BDT" name="Default suite" finished-at="2024-10-22T13:54:28 BDT" duration-ms="150632">
+    <groups>
+    </groups>
+    <test started-at="2024-10-22T13:51:57 BDT" name="Default test" finished-at="2024-10-22T13:54:28 BDT" duration-ms="150632">
+      <class name="simplelogin.simpletesting">
+        <test-method is-config="true" signature="init()[pri:0, instance:simplelogin.simpletesting@1ed4ae0f]" started-at="2024-10-22T13:51:57 BDT" name="init" finished-at="2024-10-22T13:52:05 BDT" duration-ms="7685" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="loginwithemptyusernameandemptypassword()[pri:0, instance:simplelogin.simpletesting@1ed4ae0f]" started-at="2024-10-22T13:52:05 BDT" name="loginwithemptyusernameandemptypassword" finished-at="2024-10-22T13:52:14 BDT" duration-ms="9350" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginwithemptyusernameandemptypassword -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:simplelogin.simpletesting@1ed4ae0f]" started-at="2024-10-22T13:52:14 BDT" name="teardown" finished-at="2024-10-22T13:52:20 BDT" duration-ms="5871" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="init()[pri:0, instance:simplelogin.simpletesting@1ed4ae0f]" started-at="2024-10-22T13:52:20 BDT" name="init" finished-at="2024-10-22T13:52:24 BDT" duration-ms="4075" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="loginwithemptyusernameandinvalidpassword()[pri:0, instance:simplelogin.simpletesting@1ed4ae0f]" started-at="2024-10-22T13:52:24 BDT" name="loginwithemptyusernameandinvalidpassword" finished-at="2024-10-22T13:52:34 BDT" duration-ms="9427" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginwithemptyusernameandinvalidpassword -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:simplelogin.simpletesting@1ed4ae0f]" started-at="2024-10-22T13:52:34 BDT" name="teardown" finished-at="2024-10-22T13:52:39 BDT" duration-ms="5859" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="init()[pri:0, instance:simplelogin.simpletesting@1ed4ae0f]" started-at="2024-10-22T13:52:39 BDT" name="init" finished-at="2024-10-22T13:52:45 BDT" duration-ms="5160" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="loginwithemptyusernameandvalidpassword()[pri:0, instance:simplelogin.simpletesting@1ed4ae0f]" started-at="2024-10-22T13:52:45 BDT" name="loginwithemptyusernameandvalidpassword" finished-at="2024-10-22T13:52:54 BDT" duration-ms="9514" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginwithemptyusernameandvalidpassword -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:simplelogin.simpletesting@1ed4ae0f]" started-at="2024-10-22T13:52:54 BDT" name="teardown" finished-at="2024-10-22T13:53:00 BDT" duration-ms="5922" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="init()[pri:0, instance:simplelogin.simpletesting@1ed4ae0f]" started-at="2024-10-22T13:53:00 BDT" name="init" finished-at="2024-10-22T13:53:05 BDT" duration-ms="4989" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="loginwithevalidusernameandinvalidpassword()[pri:0, instance:simplelogin.simpletesting@1ed4ae0f]" started-at="2024-10-22T13:53:05 BDT" name="loginwithevalidusernameandinvalidpassword" finished-at="2024-10-22T13:53:05 BDT" duration-ms="141" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to locate element: //*[@id="username"]
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [e03fe0a4-029d-4de7-b360-302be3a8ac20, findElement {value=//*[@id="username"], using=xpath}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 131.0.3, moz:accessibilityChecks: false, moz:buildID: 20241011205646, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 6492, moz:profile: C:\Users\Ahnaf\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: e03fe0a4-029d-4de7-b360-302be3a8ac20]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: //*[@id="username"]
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [e03fe0a4-029d-4de7-b360-302be3a8ac20, findElement {value=//*[@id="username"], using=xpath}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 131.0.3, moz:accessibilityChecks: false, moz:buildID: 20241011205646, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 6492, moz:profile: C:\Users\Ahnaf\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: e03fe0a4-029d-4de7-b360-302be3a8ac20
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+at simplelogin.simpletesting.loginwithevalidusernameandinvalidpassword(simpletesting.java:88)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginwithevalidusernameandinvalidpassword -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:simplelogin.simpletesting@1ed4ae0f]" started-at="2024-10-22T13:53:05 BDT" name="teardown" finished-at="2024-10-22T13:53:11 BDT" duration-ms="5881" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="init()[pri:0, instance:simplelogin.simpletesting@1ed4ae0f]" started-at="2024-10-22T13:53:11 BDT" name="init" finished-at="2024-10-22T13:53:15 BDT" duration-ms="4025" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="loginwithinvalidusernameandinvalidpassword()[pri:0, instance:simplelogin.simpletesting@1ed4ae0f]" started-at="2024-10-22T13:53:15 BDT" name="loginwithinvalidusernameandinvalidpassword" finished-at="2024-10-22T13:53:25 BDT" duration-ms="9490" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginwithinvalidusernameandinvalidpassword -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:simplelogin.simpletesting@1ed4ae0f]" started-at="2024-10-22T13:53:25 BDT" name="teardown" finished-at="2024-10-22T13:53:30 BDT" duration-ms="5745" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="init()[pri:0, instance:simplelogin.simpletesting@1ed4ae0f]" started-at="2024-10-22T13:53:30 BDT" name="init" finished-at="2024-10-22T13:53:34 BDT" duration-ms="3745" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="loginwithinvalidusernameandvalidpassword()[pri:0, instance:simplelogin.simpletesting@1ed4ae0f]" started-at="2024-10-22T13:53:34 BDT" name="loginwithinvalidusernameandvalidpassword" finished-at="2024-10-22T13:53:44 BDT" duration-ms="9511" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginwithinvalidusernameandvalidpassword -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:simplelogin.simpletesting@1ed4ae0f]" started-at="2024-10-22T13:53:44 BDT" name="teardown" finished-at="2024-10-22T13:53:50 BDT" duration-ms="5907" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="init()[pri:0, instance:simplelogin.simpletesting@1ed4ae0f]" started-at="2024-10-22T13:53:50 BDT" name="init" finished-at="2024-10-22T13:53:53 BDT" duration-ms="3734" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="loginwithvalidusernameandemptypassword()[pri:0, instance:simplelogin.simpletesting@1ed4ae0f]" started-at="2024-10-22T13:53:53 BDT" name="loginwithvalidusernameandemptypassword" finished-at="2024-10-22T13:54:03 BDT" duration-ms="9404" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginwithvalidusernameandemptypassword -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:simplelogin.simpletesting@1ed4ae0f]" started-at="2024-10-22T13:54:03 BDT" name="teardown" finished-at="2024-10-22T13:54:09 BDT" duration-ms="5886" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="init()[pri:0, instance:simplelogin.simpletesting@1ed4ae0f]" started-at="2024-10-22T13:54:09 BDT" name="init" finished-at="2024-10-22T13:54:12 BDT" duration-ms="3860" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="loginwithvalidusernameandvalidpassword()[pri:0, instance:simplelogin.simpletesting@1ed4ae0f]" started-at="2024-10-22T13:54:12 BDT" name="loginwithvalidusernameandvalidpassword" finished-at="2024-10-22T13:54:22 BDT" duration-ms="9456" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginwithvalidusernameandvalidpassword -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:simplelogin.simpletesting@1ed4ae0f]" started-at="2024-10-22T13:54:22 BDT" name="teardown" finished-at="2024-10-22T13:54:28 BDT" duration-ms="5916" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- simplelogin.simpletesting -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-10-15T23:01:44 BDT" name="Default suite" finished-at="2024-10-15T23:04:55 BDT" duration-ms="190237">
+    <groups>
+    </groups>
+    <test started-at="2024-10-15T23:01:44 BDT" name="Default test" finished-at="2024-10-15T23:04:55 BDT" duration-ms="190237">
+      <class name="simplelogin.simpletesting">
+        <test-method is-config="true" signature="init()[pri:0, instance:simplelogin.simpletesting@644baf4a]" started-at="2024-10-15T23:01:44 BDT" name="init" finished-at="2024-10-15T23:01:56 BDT" duration-ms="11087" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="loginwithemptyusernameandemptypassword()[pri:0, instance:simplelogin.simpletesting@644baf4a]" started-at="2024-10-15T23:01:56 BDT" name="loginwithemptyusernameandemptypassword" finished-at="2024-10-15T23:02:05 BDT" duration-ms="9718" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginwithemptyusernameandemptypassword -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:simplelogin.simpletesting@644baf4a]" started-at="2024-10-15T23:02:05 BDT" name="teardown" finished-at="2024-10-15T23:02:12 BDT" duration-ms="6594" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="init()[pri:0, instance:simplelogin.simpletesting@644baf4a]" started-at="2024-10-15T23:02:12 BDT" name="init" finished-at="2024-10-15T23:02:19 BDT" duration-ms="7272" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="loginwithemptyusernameandinvalidpassword()[pri:0, instance:simplelogin.simpletesting@644baf4a]" started-at="2024-10-15T23:02:19 BDT" name="loginwithemptyusernameandinvalidpassword" finished-at="2024-10-15T23:02:29 BDT" duration-ms="9860" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginwithemptyusernameandinvalidpassword -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:simplelogin.simpletesting@644baf4a]" started-at="2024-10-15T23:02:29 BDT" name="teardown" finished-at="2024-10-15T23:02:35 BDT" duration-ms="6443" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="init()[pri:0, instance:simplelogin.simpletesting@644baf4a]" started-at="2024-10-15T23:02:35 BDT" name="init" finished-at="2024-10-15T23:02:43 BDT" duration-ms="7348" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="loginwithemptyusernameandvalidpassword()[pri:0, instance:simplelogin.simpletesting@644baf4a]" started-at="2024-10-15T23:02:43 BDT" name="loginwithemptyusernameandvalidpassword" finished-at="2024-10-15T23:02:52 BDT" duration-ms="9640" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginwithemptyusernameandvalidpassword -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:simplelogin.simpletesting@644baf4a]" started-at="2024-10-15T23:02:52 BDT" name="teardown" finished-at="2024-10-15T23:02:59 BDT" duration-ms="6387" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="init()[pri:0, instance:simplelogin.simpletesting@644baf4a]" started-at="2024-10-15T23:02:59 BDT" name="init" finished-at="2024-10-15T23:03:06 BDT" duration-ms="6792" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="loginwithevalidusernameandinvalidpassword()[pri:0, instance:simplelogin.simpletesting@644baf4a]" started-at="2024-10-15T23:03:06 BDT" name="loginwithevalidusernameandinvalidpassword" finished-at="2024-10-15T23:03:16 BDT" duration-ms="9953" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginwithevalidusernameandinvalidpassword -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:simplelogin.simpletesting@644baf4a]" started-at="2024-10-15T23:03:16 BDT" name="teardown" finished-at="2024-10-15T23:03:22 BDT" duration-ms="6358" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="init()[pri:0, instance:simplelogin.simpletesting@644baf4a]" started-at="2024-10-15T23:03:22 BDT" name="init" finished-at="2024-10-15T23:03:28 BDT" duration-ms="6411" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="loginwithinvalidusernameandinvalidpassword()[pri:0, instance:simplelogin.simpletesting@644baf4a]" started-at="2024-10-15T23:03:28 BDT" name="loginwithinvalidusernameandinvalidpassword" finished-at="2024-10-15T23:03:38 BDT" duration-ms="9781" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginwithinvalidusernameandinvalidpassword -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:simplelogin.simpletesting@644baf4a]" started-at="2024-10-15T23:03:38 BDT" name="teardown" finished-at="2024-10-15T23:03:45 BDT" duration-ms="6394" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="init()[pri:0, instance:simplelogin.simpletesting@644baf4a]" started-at="2024-10-15T23:03:45 BDT" name="init" finished-at="2024-10-15T23:03:52 BDT" duration-ms="7561" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="loginwithinvalidusernameandvalidpassword()[pri:0, instance:simplelogin.simpletesting@644baf4a]" started-at="2024-10-15T23:03:52 BDT" name="loginwithinvalidusernameandvalidpassword" finished-at="2024-10-15T23:04:02 BDT" duration-ms="9920" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginwithinvalidusernameandvalidpassword -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:simplelogin.simpletesting@644baf4a]" started-at="2024-10-15T23:04:02 BDT" name="teardown" finished-at="2024-10-15T23:04:08 BDT" duration-ms="6345" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="init()[pri:0, instance:simplelogin.simpletesting@644baf4a]" started-at="2024-10-15T23:04:08 BDT" name="init" finished-at="2024-10-15T23:04:15 BDT" duration-ms="6166" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="loginwithvalidusernameandemptypassword()[pri:0, instance:simplelogin.simpletesting@644baf4a]" started-at="2024-10-15T23:04:15 BDT" name="loginwithvalidusernameandemptypassword" finished-at="2024-10-15T23:04:24 BDT" duration-ms="9823" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginwithvalidusernameandemptypassword -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:simplelogin.simpletesting@644baf4a]" started-at="2024-10-15T23:04:24 BDT" name="teardown" finished-at="2024-10-15T23:04:31 BDT" duration-ms="6293" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="init()[pri:0, instance:simplelogin.simpletesting@644baf4a]" started-at="2024-10-15T23:04:31 BDT" name="init" finished-at="2024-10-15T23:04:39 BDT" duration-ms="7910" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="loginwithvalidusernameandvalidpassword()[pri:0, instance:simplelogin.simpletesting@644baf4a]" started-at="2024-10-15T23:04:39 BDT" name="loginwithvalidusernameandvalidpassword" finished-at="2024-10-15T23:04:48 BDT" duration-ms="9750" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginwithvalidusernameandvalidpassword -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:simplelogin.simpletesting@644baf4a]" started-at="2024-10-15T23:04:48 BDT" name="teardown" finished-at="2024-10-15T23:04:55 BDT" duration-ms="6283" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- simplelogin.simpletesting -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
